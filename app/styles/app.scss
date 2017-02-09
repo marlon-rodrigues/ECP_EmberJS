@@ -1,0 +1,13 @@
+$icon-font-path: '../fonts/';
+
+@import "bootstrap";
+
+//Custom Mixins/Partials
+@import "app/styles/mixins";
+@import "app/styles/colors";
+@import "app/styles/generic";
+@import "app/styles/header";
+@import "app/styles/content";
+@import "app/styles/sidebar";
+@import "app/styles/footer";
+//end custommixins

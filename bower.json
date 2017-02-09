@@ -1,5 +1,13 @@
 {
   "name": "ecp",
+  "private": true,
   "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.1",
+    "owl.carousel": "^2.2.0"
+  },
+  "devDependencies": {
+    "fancybox": "^2.1.6",
+    "matchHeight": "matchheight#^0.7.0"
   }
 }

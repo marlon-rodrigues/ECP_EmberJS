@@ -5,7 +5,24 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     // Add options here
+    minifyJS: {
+      enabled: true
+    },
+    minifyCSS: {
+      enabled: true
+    }
   });
+
+    //import libraries css files
+  app.import('bower_components/owl.carousel/dist/assets/owl.carousel.min.css');
+  app.import('bower_components/owl.carousel/dist/assets/owl.theme.default.min.css');
+
+    //import libraries js files
+  app.import('bower_components/modernizr/modernizr.js');
+  app.import('bower_components/fancybox/source/jquery.fancybox.pack.js');
+  app.import("bower_components/fancybox/source/helpers/jquery.fancybox-media.js");  
+  app.import("bower_components/owl.carousel/dist/owl.carousel.min.js");
+  app.import("bower_components/matchHeight/dist/jquery.matchHeight.js");
 
   // Use `app.import` to add additional libraries to the generated
   // output files.
