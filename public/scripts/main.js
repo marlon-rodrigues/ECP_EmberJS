@@ -10,13 +10,6 @@ Ember.$(document).ready(function($) {
     });
     /***** End bootstrap sliding dropdowns *****/
 
-    /***** Init all owl carousels ******/
-    Ember.$('.owl-carousel').owlCarousel({
-        items: 1,
-        loop: true,
-        dots: true,
-        autoplay: true
-    });
     /**** Init all fancybox media/video players ****/
     Ember.$('.fancybox-media').fancybox({
         fitToView: true,

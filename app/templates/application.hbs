@@ -86,10 +86,10 @@
             <div class="row">
                 <div class="col-sm-9">
                     <ul class="list-inline list-unstyled">
-                        <li><a class="home" href="#">Home</a></li>
-                        <li><a href="#">Tasks</a></li>
-                        <li><a href="#">Documents</a></li>
-                        <li><a href="#">Contacts</a></li>
+                        {{#link-to 'index' tagName="li"}}<a class="home" href="">Home</a>{{/link-to}}
+                        {{#nav-link-to 'tasks'}}Tasks{{/nav-link-to}}
+                        {{#nav-link-to 'documents'}}Documents{{/nav-link-to}}
+                        {{#nav-link-to 'contacts'}}Contacts{{/nav-link-to}}
                         <li><a href="#">Payments</a></li>
                     </ul>
                     <p class="small">Event Collaboration Portal</p>
@@ -99,3 +99,5 @@
     </footer>
     <!-- END FOOTER MARKUP -->
 </div>
+
+<script src="scripts/main.js"></script>
