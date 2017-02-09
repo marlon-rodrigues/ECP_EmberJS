@@ -6,6 +6,14 @@ const Router = Ember.Router.extend({
   rootURL: config.rootURL
 });
 
-Router.map(function() {});
+Router.map(function() {
+  this.route('events-list');
+  this.route('tasks');
+  this.route('documents');
+  this.route('contacts');
+  this.route('user-management');
+  this.route('profile-management');
+  this.route('notifications');
+});
 
 export default Router;

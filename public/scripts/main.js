@@ -1,3 +1,4 @@
+//TODO - VERIFY IF THIS FILE IS REQUIRED
 Ember.$(document).ready(function($) {
 
     /***** Alter bootstrap dropdowns to slide *****/
