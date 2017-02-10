@@ -14,6 +14,7 @@ Router.map(function() {
   this.route('user-management');
   this.route('profile-management');
   this.route('notifications');
+  this.route('login');
 });
 
 export default Router;
